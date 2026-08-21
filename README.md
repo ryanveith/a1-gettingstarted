@@ -85,8 +85,8 @@ Note that if you want to load resources besides your index.html file (images, an
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
 
-Charlie Roberts
-http://a1-charlieroberts.onrender.com
+Ryan Veith
+<insert hosted link by render here>>
 
 This project shows ...
 
@@ -94,4 +94,4 @@ This project shows ...
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used the <Roboto or other font> Font from Google Fonts**: I used <Roboto or other font> as the font for the...
