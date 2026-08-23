@@ -88,10 +88,25 @@ Sample Readme (delete the above when you're ready to submit, and modify the text
 Ryan Veith
 <insert hosted link by render here>>
 
-This project shows ...
+This project shows a simple Webpage with some information about me.
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: I added rules for the website in general, the navigation section, the list of classes as well as the headers.
+The navigation section is alligned to the right of the page and the individual links themselves have padding and a background color to make them fit in better with the rest ofthe website
+The website in genreal or the body has its font set to Roberto from the google font family as well as the background and text colors set to colors from my color pallete
+The list has a different backgound color and text color using two other colors from my color pallete, it also has a border in the same color as the text color. The width of the list is also set so that the backgound does not span the full width of the page. Finally the individual list items were given a gap so that the list as a whole looked less cramped
+The headers have additional text decoration in the form of an overline and underline. They also have the same backround color as the list, but use the last color from my color pallate as the text color, they also have some padding so that the overline fits within the background and a border. 
+I also added background color, padding, and text aling to make them both stand out more and be more readable
+
+- **Simple JavaScript Animation**:
+It is basically a screensaver animation. The smaller box bounces around with some randomness on the new direction when it hits the edge of the bigger box. It also follows the color scheme, the bigger box is #0085B8 small box is #B84100.
+
+- **Other HTML tags**: I added a header, links, a list, an image and a footer
+The header contains the nav tag and has links to the various parts of my page
+The past classes part of my webpage contains an unorderd list where each list item is a class
+The Color Scheme of this Website has an image of the color wheel with the split complementary color harmony.
 
 ## Design Achievements
-- **Used the <Roboto or other font> Font from Google Fonts**: I used <Roboto or other font> as the font for the...
+- **Used a color palette from color.adobe.com**: I used the all 5 colors from my color pallete in the website. The first one #B87A00 which is the bright orange is the backound. Of the two darker colors the dark blue #1C3038 is the main text color. The darker orange #B84100 is the background for the list, links and headers. The dark brown #382F1C is the text color of the list and also the boarder color. Finnaly #0085B8 the light blue is the text color of the headers. You can see screenshots of the color pallete in the images folder, alternativly there is an image displayed under the Color Pallete For this Website header
+
+- **Used the Roboto Font from Google Fonts**: I used Roboto font from google fonts as the font-family for the entre website. It is linked using the exact code given from the Google Fonts website to do so and then then I set the font family in the body.
