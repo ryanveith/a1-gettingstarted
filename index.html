@@ -108,35 +108,35 @@
         let x = 0;
         let y = 0;
         let direction = 50;
-          (() => {
+        setInterval(() => {
           if (x < 0) {
-            x = 0
-            direction = - direction
-            direction += Math.random() * 20 - 10
-            direction = Math.floor(direction) % 360
+            x = 0;
+            direction = - direction;
+            direction += Math.random() * 20 - 10;
+            direction = Math.floor(direction) % 360;
           }
           if (x > animation_grid_size - animation_item_size) {
-            x = animation_grid_size - animation_item_size
-            direction = - direction
-            direction += Math.random() * 20 - 10
-            direction = Math.floor(direction) % 360
+            x = animation_grid_size - animation_item_size;
+            direction = - direction;
+            direction += Math.random() * 20 - 10;
+            direction = Math.floor(direction) % 360;
           }
           if (y < 0) {
-            y = 0
-            direction = - direction + 180
-            direction += Math.random() * 20 - 10
-            direction = Math.floor(direction) % 360
+            y = 0;
+            direction = - direction + 180;
+            direction += Math.random() * 20 - 10;
+            direction = Math.floor(direction) % 360;
           }
           if (y > animation_grid_size - animation_item_size) {
-            y = animation_grid_size - animation_item_size
-            direction = - direction + 180
-            direction += Math.random() * 20 - 10
-            direction = Math.floor(direction) % 360
+            y = animation_grid_size - animation_item_size;
+            direction = - direction + 180;
+            direction += Math.random() * 20 - 10;
+            direction = Math.floor(direction) % 360;
           }
-          x += 5 * Math.sin(direction * Math.PI / 180)
-          y += 5 * Math.cos(direction * Math.PI / 180)
+          x += 5 * Math.sin(direction * Math.PI / 180);
+          y += 5 * Math.cos(direction * Math.PI / 180);
           my_animation.style.transform = "translate("+x+"px, "+y+"px)";
-          console.log("time", x)
+          console.log("time", x);
         }, 30)
       }
       doAnimation()
